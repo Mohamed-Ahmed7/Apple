@@ -67,6 +67,21 @@ nav ul a:hover {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 767px) {
+  #home {
+    height: 110vh;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav .logo {
+    margin: 5px auto 20px;
+  }
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 .content-text {
   color: #fff;
@@ -87,7 +102,7 @@ nav ul a:hover {
 
 .content .content-text a {
   color: #fff;
-  background-color: transparen;
+  background-color: transparent;
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 25px;
